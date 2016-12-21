@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Aezz0Na8EeWmWZUdA654pw">
+  <modelElement href="agilefant.uml#_C77Wgda8EeWmWZUdA654pw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VyM48Na8EeWmWZUdA654pw" targetItem="_VyP8Sta8EeWmWZUdA654pw" sourceItem="_VyLq0Na8EeWmWZUdA654pw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VyOHENa8EeWmWZUdA654pw" targetItem="_VyP8UNa8EeWmWZUdA654pw" sourceItem="_VyNgANa8EeWmWZUdA654pw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VyOuINa8EeWmWZUdA654pw" targetItem="_VyP8Vta8EeWmWZUdA654pw" sourceItem="_VyOHEda8EeWmWZUdA654pw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VyOuIta8EeWmWZUdA654pw" targetItem="_VyP8Yta8EeWmWZUdA654pw" sourceItem="_VyOuIda8EeWmWZUdA654pw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VyLq0Na8EeWmWZUdA654pw" sourceConnectionVisual="_VyM48Na8EeWmWZUdA654pw" text="Create a new team to product relationship." item="_VyP8Sta8EeWmWZUdA654pw">
+    <modelElement href="agilefant.uml#_N6nRota8EeWmWZUdA654pw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VyNgANa8EeWmWZUdA654pw" sourceConnectionVisual="_VyOHENa8EeWmWZUdA654pw" text="Delete an existing team to product relationship." item="_VyP8UNa8EeWmWZUdA654pw">
+    <modelElement href="agilefant.uml#_N6nRo9a8EeWmWZUdA654pw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VyOHEda8EeWmWZUdA654pw" sourceConnectionVisual="_VyOuINa8EeWmWZUdA654pw" text="Edit a team to product relationship." item="_VyP8Vta8EeWmWZUdA654pw">
+    <modelElement href="agilefant.uml#_N6nRpNa8EeWmWZUdA654pw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VyOuIda8EeWmWZUdA654pw" sourceConnectionVisual="_VyOuIta8EeWmWZUdA654pw" text="Store the team to product relationship." item="_VyP8Yta8EeWmWZUdA654pw">
+    <modelElement href="agilefant.uml#_N6nRpda8EeWmWZUdA654pw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VyP8QNa8EeWmWZUdA654pw" name="AccessAction">
+    <modelElement href="agilefant.uml#_NeG70Na8EeWmWZUdA654pw"/>
+    <visualProperties xmi:id="_VyP8Qda8EeWmWZUdA654pw" position="11.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_VyP8Qta8EeWmWZUdA654pw" name="LegacyStyledElement">
+      <modelElement href="agilefant.uml#_NeG70da8EeWmWZUdA654pw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_VyP8Q9a8EeWmWZUdA654pw" name="Annotations">
+      <modelElement href="agilefant.uml#_NeIJ9Na8EeWmWZUdA654pw"/>
+    </stereotypes>
+    <visibility xmi:id="_VyP8RNa8EeWmWZUdA654pw" label="+"/>
+    <attributes xmi:id="_VyP8Rda8EeWmWZUdA654pw" defaultValue="-3334278151418035144L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="agilefant.uml#_N3MKMNa8EeWmWZUdA654pw"/>
+      <stereotypes xmi:id="_VyP8Rta8EeWmWZUdA654pw" name="StyledElement">
+        <modelElement href="agilefant.uml#_N3MKMta8EeWmWZUdA654pw"/>
+      </stereotypes>
+      <visibility xmi:id="_VyP8R9a8EeWmWZUdA654pw" label="-"/>
+      <cardinality xmi:id="_VyP8SNa8EeWmWZUdA654pw" label="1" max="1" min="1"/>
+      <type xmi:id="_VyP8Sda8EeWmWZUdA654pw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VyP8Sta8EeWmWZUdA654pw" comments="_VyLq0Na8EeWmWZUdA654pw" targetConnectionVisual="_VyM48Na8EeWmWZUdA654pw" name="create">
+      <modelElement href="agilefant.uml#_NeG70ta8EeWmWZUdA654pw"/>
+      <stereotypes xmi:id="_VyP8S9a8EeWmWZUdA654pw" name="StyledElement">
+        <modelElement href="agilefant.uml#_NeG71Na8EeWmWZUdA654pw"/>
+      </stereotypes>
+      <visibility xmi:id="_VyP8TNa8EeWmWZUdA654pw" label="+"/>
+      <cardinality xmi:id="_VyP8Tda8EeWmWZUdA654pw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VyP8Tta8EeWmWZUdA654pw">
+        <modelElement href="agilefant.uml#_NeG709a8EeWmWZUdA654pw"/>
+        <type xmi:id="_VyP8T9a8EeWmWZUdA654pw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VyP8UNa8EeWmWZUdA654pw" comments="_VyNgANa8EeWmWZUdA654pw" targetConnectionVisual="_VyOHENa8EeWmWZUdA654pw" name="delete">
+      <modelElement href="agilefant.uml#_NeG71da8EeWmWZUdA654pw"/>
+      <stereotypes xmi:id="_VyP8Uda8EeWmWZUdA654pw" name="StyledElement">
+        <modelElement href="agilefant.uml#_NeHi4da8EeWmWZUdA654pw"/>
+      </stereotypes>
+      <visibility xmi:id="_VyP8Uta8EeWmWZUdA654pw" label="+"/>
+      <cardinality xmi:id="_VyP8U9a8EeWmWZUdA654pw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VyP8VNa8EeWmWZUdA654pw">
+        <modelElement href="agilefant.uml#_NeHi4Na8EeWmWZUdA654pw"/>
+        <type xmi:id="_VyP8Vda8EeWmWZUdA654pw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VyP8Vta8EeWmWZUdA654pw" comments="_VyOHEda8EeWmWZUdA654pw" targetConnectionVisual="_VyOuINa8EeWmWZUdA654pw" name="retrieve">
+      <modelElement href="agilefant.uml#_NeHi4ta8EeWmWZUdA654pw"/>
+      <stereotypes xmi:id="_VyP8V9a8EeWmWZUdA654pw" name="StyledElement">
+        <modelElement href="agilefant.uml#_NeHi5Na8EeWmWZUdA654pw"/>
+      </stereotypes>
+      <visibility xmi:id="_VyP8WNa8EeWmWZUdA654pw" label="+"/>
+      <cardinality xmi:id="_VyP8Wda8EeWmWZUdA654pw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VyP8Wta8EeWmWZUdA654pw">
+        <modelElement href="agilefant.uml#_NeHi49a8EeWmWZUdA654pw"/>
+        <type xmi:id="_VyP8W9a8EeWmWZUdA654pw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VyP8XNa8EeWmWZUdA654pw" name="retrieveAll">
+      <modelElement href="agilefant.uml#_NeHi5da8EeWmWZUdA654pw"/>
+      <stereotypes xmi:id="_VyP8Xda8EeWmWZUdA654pw" name="StyledElement">
+        <modelElement href="agilefant.uml#_NeHi59a8EeWmWZUdA654pw"/>
+      </stereotypes>
+      <visibility xmi:id="_VyP8Xta8EeWmWZUdA654pw" label="+"/>
+      <cardinality xmi:id="_VyP8X9a8EeWmWZUdA654pw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VyP8YNa8EeWmWZUdA654pw">
+        <modelElement href="agilefant.uml#_NeHi5ta8EeWmWZUdA654pw"/>
+        <type xmi:id="_VyP8Yda8EeWmWZUdA654pw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VyP8Yta8EeWmWZUdA654pw" comments="_VyOuIda8EeWmWZUdA654pw" targetConnectionVisual="_VyOuIta8EeWmWZUdA654pw" name="store">
+      <modelElement href="agilefant.uml#_NeHi6Na8EeWmWZUdA654pw"/>
+      <stereotypes xmi:id="_VyP8Y9a8EeWmWZUdA654pw" name="StyledElement">
+        <modelElement href="agilefant.uml#_NeIJ8da8EeWmWZUdA654pw"/>
+      </stereotypes>
+      <visibility xmi:id="_VyP8ZNa8EeWmWZUdA654pw" label="+"/>
+      <cardinality xmi:id="_VyP8Zda8EeWmWZUdA654pw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VyP8Zta8EeWmWZUdA654pw">
+        <modelElement href="agilefant.uml#_NeIJ8Na8EeWmWZUdA654pw"/>
+        <type xmi:id="_VyP8Z9a8EeWmWZUdA654pw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VyP8aNa8EeWmWZUdA654pw" name="initializePrefetchedData">
+      <modelElement href="agilefant.uml#_NeIJ8ta8EeWmWZUdA654pw"/>
+      <visibility xmi:id="_VyP8ada8EeWmWZUdA654pw" label="+"/>
+      <cardinality xmi:id="_VyP8ata8EeWmWZUdA654pw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VyP8a9a8EeWmWZUdA654pw" name="objectId">
+        <modelElement href="agilefant.uml#_NeIJ89a8EeWmWZUdA654pw"/>
+        <cardinality xmi:id="_VyP8bNa8EeWmWZUdA654pw" label="1" max="1" min="1"/>
+        <type xmi:id="_VyP8bda8EeWmWZUdA654pw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
